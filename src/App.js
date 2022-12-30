@@ -1,10 +1,13 @@
 import React from 'react';
-import Topo from './componentes/Topo'
+import './app.css'
 
+import Rotas from './rotas';
 
 function App() {
   return (
-      <Topo />
+    <div className='app'>
+      <Rotas />
+    </div>
   );
 }
 

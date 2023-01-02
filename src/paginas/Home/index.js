@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './style.css'
+import './responsive.css';
 
 // import { Container } from './styles';
 import Topo from '../../componentes/Topo';
@@ -44,7 +45,7 @@ function Home() {
       <h2 className="titulo-sessao">Por que usar <b>aparelho</b>?</h2>
 
       <img
-        className="img-aparelho"
+        className="img-aparelho banner"
         src="assets/aparelho.png"
         alt="Imagem do uso de um aparelho"
         title="Imagem do uso de um aparelho"
@@ -108,7 +109,7 @@ function Home() {
         </ul>
       </div>
 
-      <div>
+      <div className='btn'>
         <Link to="/contato" className="btn-contato">Entra em contato</Link>
       </div>
       <Footer />

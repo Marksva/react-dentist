@@ -3,20 +3,28 @@ section {
 }
 
 .limitar-container {
-    max-width: 1024px;
+    max-width: 744px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
 
 .home-apresentacao {
     background-color: #1b3675;
     padding: 20px 0;
     padding-top: 100px;
     border-radius: 8px;
+    box-shadow:
+        0.1px 0.2px 1px rgba(0, 0, 0, 0.12),
+        0.1px 0.5px 2.5px rgba(0, 0, 0, 0.164),
+        0.3px 0.9px 4.6px rgba(0, 0, 0, 0.197),
+        0.4px 1.6px 8.3px rgba(0, 0, 0, 0.227),
+        0.8px 2.9px 15.5px rgba(0, 0, 0, 0.265),
+        2px 7px 37px rgba(0, 0, 0, 0.35);
 }
 
 .home-apresentacao h1 {
-    margin: 0;
+    margin: 10px 0;
     color: #fdb203;
     font-size: 3rem;
     font-weight: 300;
@@ -33,11 +41,13 @@ section {
     font-size: 2rem;
     font-weight: 300;
     line-height: 1.5em;
+    margin: 10px 0;
 }
 
 .lista-servicos {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .lista-servicos li {
@@ -62,12 +72,33 @@ section {
     text-align: left;
 }
 
+.titulo-sessao {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+
 .img-aparelho {
+    border-radius: 26px;
     width: 100%;
     max-width: 700px;
-    max-height: 300px;
+    max-height: 237px;
     object-fit: cover;
     border-radius: 1px;
+    box-shadow:
+        0.1px 0.2px 1px rgba(0, 0, 0, 0.12),
+        0.1px 0.5px 2.5px rgba(0, 0, 0, 0.164),
+        0.3px 0.9px 4.6px rgba(0, 0, 0, 0.197),
+        0.4px 1.6px 8.3px rgba(0, 0, 0, 0.227),
+        0.8px 2.9px 15.5px rgba(0, 0, 0, 0.265),
+        2px 7px 37px rgba(0, 0, 0, 0.35);
+}
+
+.banner {
+    border-radius: 2px;
+    margin-bottom: 25px;
 }
 
 .lista-sobre-aparelho {
@@ -80,32 +111,42 @@ section {
     list-style: none;
     text-align: start;
     flex: 1;
+    margin-bottom: 26px;
 }
 
 .home-depoimentos {
-    margin-top: 60px;
+    margin-top: 45px;
+    margin-bottom: 25px;
 }
 
 .lista-depoimentos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .lista-depoimentos li {
     list-style: none;
     max-width: 300px;
     padding: 10px 20px;
+    margin-bottom: 12px;
 }
 
 .lista-depoimentos li img {
+
     width: 150px;
     height: 150px;
     border-radius: 75px;
+    margin-bottom: 14px;
+}
+
+.btn {
+    margin-top: 20px;
 }
 
 .btn-contato {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border: 1px solid #1b3675;
     border-radius: 3px;
     padding: 10px 20px;

@@ -1,0 +1,17 @@
+@media(max-width:1800px) {
+    html {
+        font-size: 52%;
+    }
+}
+
+@media(max-width:430px) {
+    html {
+        font-size: 50%;
+    }
+    
+    
+    .img-aparelho {
+        max-width: 362px;
+        max-height: 154px;
+    }
+}

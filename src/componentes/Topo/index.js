@@ -6,17 +6,17 @@ function Topo() {
   return (
     <header className="topo">
       <div className="topo-conteudo">
-        
-        <Link className="topo-logo-box">
+
+        <Link to="/" className="topo-logo-box">
           <img className="topo-logo" src="assets/dente.png" alt="logo dentes saudáveis" title="logo dentes saudáveis" />
           <p className="topo-nome-empresa">Dentes Saudáveis</p>
         </Link>
-        
+
         <nav className="topo-links">
-          <Link className="topo-link">Home</Link>
-          <Link className="topo-link">Contato</Link>
+          <Link to="/" className="topo-link">Home</Link>
+          <Link to="/contato" className="topo-link">Contato</Link>
         </nav>
-        
+
       </div>
     </header>
 
